@@ -1,0 +1,20 @@
+int a = 0;
+int result = 10 * 10;
+
+void setup(){
+  Serial.begin(9600);
+  if(a * a < 10){
+    Serial.println("Küçük");   // Seri monitöre yazar
+  }
+  else if(a * a > 10){
+    Serial.println("Büyük");   // Seri monitöre yazar
+  }
+  else{
+    Serial.println('Belirsiz'); // Seri monitöre yazar
+  }
+
+}
+
+void loop(){
+
+}
