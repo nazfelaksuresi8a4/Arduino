@@ -1,0 +1,20 @@
+int R = 10;
+int Max = 24;
+
+void setup(){
+  Serial.begin(9600);
+  
+  for(int q = 0; q < Max; q++){
+    if(q < R){
+      Serial.println(q);
+    }
+    else if(q == R - 2){
+      break;
+    }
+  }
+  
+}
+
+void loop(){
+  // Code usages
+}
