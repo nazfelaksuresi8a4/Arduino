@@ -1,0 +1,16 @@
+int a = 0;
+int result = a * a;
+
+void setup(){
+  Serial.begin(9600);
+
+  do{
+    Serial.println(a);
+    a++;
+    
+  }while(a < result);
+}
+
+void loop(){
+
+}
