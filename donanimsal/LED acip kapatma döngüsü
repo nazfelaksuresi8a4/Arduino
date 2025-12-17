@@ -1,0 +1,17 @@
+int LEDPIN1 = 1;    // 1. pini belirttik
+int LEDPIN2 = 2;    // 2. pini belirttik
+
+void setup(){              // tek sefer çalışacak olan setup fonksiyonu tanımladık
+  pinMode(LEDPIN1,OUTPUT);  // Pin modunu 1. pin ve Çıkış olarak ayarladık 
+  pinMode(LEDPIN2,OUTPUT);  // Pin modunu 2. pin ve Çıkış olarak ayarladık
+ }
+
+void loop(){
+  digitalWrite(LEDPIN1,HIGH);  // 1. pine 5V verdik(logic 1)
+  delay(100); // 0.5ms  bekleme
+  digitalWrite(LEDPIN1,LOW);  // 1. pindeki 5V'u 0V olarak değiştirdik(0) ve led söndü
+
+  digitalWrite(LEDPIN2,HIGH);  //YUKARIDAK İŞLEMLERİ 2. led için yaptık
+  delay(100); // 0.5ms
+  digitalWrite(LEDPIN2,LOW);
+}
