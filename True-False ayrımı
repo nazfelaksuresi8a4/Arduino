@@ -1,0 +1,4 @@
+0 = False
+1 = True 
+
+// Mantıksal karşılaştırma sonrası bu değerler döner ve karşılıkları buna tekabül eder.
