@@ -1,0 +1,15 @@
+int a = 0;
+float b = 3.14;
+long c = 41441;
+
+void setup(){
+  Serial.begin(9600);
+  
+  Serial.println(a);
+  Serial.println(b);
+  Serial.println(c);
+}
+
+void loop(){
+
+}
