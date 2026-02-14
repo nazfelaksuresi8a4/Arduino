@@ -1,0 +1,21 @@
+#include <Servo.h> 
+
+Servo mg90_1;
+Servo mg90_2;
+
+void setup(){
+  mg90_1.attach(3);
+  mg90_2.attach(6);
+}
+
+void loop(){
+  mg90_1.write(90);
+  mg90_2.write(180);
+
+  delay(1000);
+
+  mg90_1.write(0);
+  mg90_2.write(0);
+  
+  delay(1000);
+}
