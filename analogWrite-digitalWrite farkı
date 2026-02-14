@@ -1,0 +1,2 @@
+digitalWrite()	Açık / Kapalı
+analogWrite()	0–255 arası parlaklık
